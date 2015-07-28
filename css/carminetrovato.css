@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+
+.carmine h2,
+.carmine h3,
+.carmine a,
+.carmine p {
+    font-family: 'Patua One', cursive;
+}
+
+.carmine h3 {
+    color: #00126d;
+}

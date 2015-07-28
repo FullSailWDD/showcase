@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Merge Example</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
+		<link rel="stylesheet" href="css/nicolecarvalho.css">
+		<link rel="stylesheet" href="css/eddiegemayel.css">
+		<link rel="stylesheet" href="css/carminetrovato.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="nicole" data-background="assets/gradient.jpg">
+					<img src="assets/nicole_before.jpg" alt="Nicole Before Full Sail" width="300">
+					<h3>Nicole Tavares Carvalho</h3>
+					<p>
+						<small>Web Designer/Developer - nicolecar14@gmail.com</small>
+					</p>
+				</section>
+
+				
+                <section class="nicole" data-markdown data-background="assets/gradient.jpg">
+                    <script type="text/template">
+                        ##Intro to Javascript
+                        ```
+                        //Nicole Carvalho
+                        //Jul 17, 2013
+                        //Screencast Conditionals
+
+                        //---------------Basic Conditional Statement
+                        var oldEnough = false;
+
+                        //if the child is old enough, print to the console "you can ride!"
+                        if(oldEnough) {
+                           //code performed if condition is true
+                           console.log("You can ride the coaster!");
+                        }
+                        console.log("what comes after");
+                        ```
+                    </script>
+                </section>
+
+				<section class="nicole" data-background="assets/gradient.jpg">
+					<h2>Technologies</h2>
+					<p>
+						<ul class="nicoles-langs">
+							<li><i class="devicon-html5-plain-wordmark colored"></i></li>
+							<li><i class="devicon-css3-plain-wordmark colored"></i></li>
+							<li><i class="devicon-javascript-plain colored"></i></li>
+							<li><i class="devicon-jquery-plain-wordmark colored"></i></li>
+							<li><i class="devicon-php-plain colored"></i></li>
+							<li><i class="devicon-python-plain-wordmark colored"></i></li>
+							<li><i class="devicon-nodejs-plain colored"></i></li>
+							<li><i class="devicon-laravel-plain-wordmark colored"></i></li>
+							<li><i class="devicon-angularjs-plain colored"></i></li>
+							<li><i class="devicon-rails-plain-wordmark colored"></i></li>
+							<li><i class="devicon-mysql-plain-wordmark colored"></i></li>
+							<li><i class="devicon-mongodb-plain-wordmark colored"></i></li>
+							<li><i class="devicon-sass-original colored"></i></li>
+							<li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+							<li><i class="devicon-foundation-plain-wordmark colored"></i></li>
+							<li><i class="devicon-bower-plain-wordmark colored"></i></li>
+							<li><i class="devicon-git-plain colored"></i></li>
+							<li><i class="devicon-grunt-line-wordmark colored"></i></li>
+							<li><i class="devicon-heroku-plain-wordmark colored"></i></li>
+						</ul>
+					</p>
+				</section>
+				
+				<section data-background="#000000"></section>
+
+				<section class="eddie" data-background="#005f96">
+				    <h2>Eddie Gemayel</h2>
+				    <a href="www.google.com">This is a link</a>
+				</section>
+				
+				<section class="eddie" data-background="#005f96" data-markdown>
+                    <script type="text/template">
+                        ##Intro to Javascript
+                        ```
+                        // Function is called, return value will end up in x
+                        var x = myFunction(4, 3);
+
+                        // Function returns the product of a and b
+                        function myFunction(a, b) {
+                            return a * b;
+                        }
+                        ```
+                    </script>
+                </section>
+                
+				<section class="eddie" data-background="#005f96">
+				    <h2>My Life Story</h2>
+				    <p>This is a story all about how my life got twist turned upside down.</p>
+				</section>
+				
+				<section data-background="#000000"></section>
+				
+				<section class="carmine" data-background="assets/water.jpeg">
+				    <h2>Carmine Trovato</h2>
+				    <p>I'm a guy.</p>
+				</section>
+				
+				<section class="carmine" data-background="assets/water.jpeg">
+				    <h3>I'm all about that code</h3>
+				</section>
+				
+				<section class="carmine" data-background="assets/water.jpeg">
+				    <img src="assets/animal.jpeg" alt="animal" width="500">
+				    <p>I like turtles</p>
+				</section>
+				
+				<section data-background="#000000"></section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

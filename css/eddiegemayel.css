@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+.eddie h2,
+.eddie a,
+.eddie p {
+    font-family: 'Indie Flower', cursive;
+}
+
+.eddie a {
+    color: #ffc58e;
+}
