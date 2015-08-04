@@ -44,10 +44,13 @@
 	display: inline-block;
 	max-width: 300px;
 	padding: 15px 15px 0 15px;
-	background-color: #ffffff;
 	font-size: 60pt;
 	margin: 5px;
 	border-radius: 4px;
+}
+
+.nicole .nicoles-langs li.fam {
+	background-color: rgba(255,255,255,.5);
 }
 
 .nicole .nicoles-langs li img {
@@ -68,10 +71,11 @@
 	box-shadow: none;
 }
 
-.nicole #after-fullsail ul {
+.nicole #after-fullsail ol {
 	text-align: center;
 	float: left;
 	width: 200px;
+	display: block;
 }
 
 .nicole #after-fullsail video {
