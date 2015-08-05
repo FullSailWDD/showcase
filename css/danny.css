@@ -1,0 +1,38 @@
+.danny {
+border:0;
+box-shadow:0;
+
+}
+
+.danny .black {
+color:black;
+}
+
+.danny h3 {
+	color:#888888;
+	font-family: 'Fjalla One', sans-serif;
+	font-size:1em;
+	text-align: left;
+	margin-left:185px;
+}
+
+ul .black {
+	color:black;
+}
+
+.danny li {
+	color:#888888;
+}
+
+.danny aside {
+	float:left;
+}
+
+.danny h1 {
+	color:#e06666;
+	font-family: 'Fjalla One', sans-serif;
+}
+.danny img {
+	border:none;
+	box-shadow: none;
+}
