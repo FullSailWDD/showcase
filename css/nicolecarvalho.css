@@ -81,3 +81,8 @@
 .nicole #after-fullsail video {
 	float: right;
 }
+
+.nicole .directors {
+	float: left;
+	padding-right: 10px;
+}
