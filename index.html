@@ -29,6 +29,17 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			.languages li{
+				list-style-type: none;
+				float: left;
+				width: 18%;
+			}
+			.languages li img{
+				float: left;
+				width: 100%;
+			}
+		</style>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -79,28 +90,33 @@
 						</div>
 					</section>
 					<section>
-						<h2>This.musician</h2>
+						<h2>This.musician.cartoon</h2>
 						<div class="pictures_me">
-							<img src="img/piano.jpg" alt="">
+							<p>São Paulo, Brazil | 2012</p>
+							<img src="img/piano.jpg" alt="" style="width: 50%;">
 						</div>
 					</section>
 					<section>
-						<h2>This.musician</h2>
+						<h2>This.musician.photoshoot</h2>
 						<div class="pictures_me">
+							<p>University of Florida | 2012</p>
 							<img src="img/piano1.jpg" alt="">
 						</div>
 					</section>
 					<section>
-						<h2>This.PhD</h2>
+						<h2>This.PhD.Graduation</h2>
+						<p>University of Florida | 2012</p>
 						<div class="pictures_me">
 							<img src="img/phd.jpg" alt="" style="width: 38%;">
 						</div>
 					</section>
 					<section>
 						<h2>This.teacher</h2>
+						<p>University of Florida | 2011</p>
 						<div class="pictures_me">
-							<img src="img/teacher.png" alt="">
+							<img src="img/teacher.png" alt="" style="width: 70%;">
 						</div>
+						<p>Lecture on Musical Nationalism</p>
 					</section>
 				</section>
 				<section style="width: 100%; left:0px; padding-top:0px;">
@@ -120,16 +136,19 @@
 					<h2>This.App.Technologies</h2>
 					<!-- <p> -->
 					<div style="width: 100%;">
-						<ul>
-							<li class="fragment">PhP - Server Side language</li>
-							<li class="fragment">Vanilla JavaScript | jQuery - Client Side Language/Library</li>
-							<li class="fragment">Ajax - Asynchronous JavaScript and XML</li>
-							<li class="fragment">Bootstrap - Front End Framework</li>
-							<li class="fragment">HTML5 - Markup Language</li>
-							<li class="fragment">CSS3 - Style Language</li>
-							<li class="fragment">GIT - Version Control</li>
-							<li class="fragment">BitBucket -  Web-based Hosting Service for Projects/Code (Repository)</li>
-							<li class="fragment">Linux | CentOS 6.7 Server</li>
+						<ul class="languages">
+							<li class="fragment"><img src="img/icons/php-logo.jpg" alt=""></li>
+							<li class="fragment"><img src="img/icons/MySQL.svg.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/javascript.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/jquery.gif" alt=""></li>
+							<li class="fragment"><img src="img/icons/ajax.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/html.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/css.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/bootstrap.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/git.png" alt=""></li>
+							<li class="fragment"><img src="img/icons/linux-centos.jpeg" alt=""></li>
+							<li class="fragment"><img src="img/icons/bitbucket.png" alt=""></li>
+							
 						</ul>
 					</div>
 				</section>
@@ -227,7 +246,7 @@
 					<h2 style="margin-bottom: 0px !important; margin-top: 0;">This.App.Analytics.Audience</h2>
 					<div style="width: 100%;">
 						<p style="margin-bottom:5px; margin-top:5px;">May 22, 2013 - Sept 22, 2015</p>
-						<img src="img/analytics/audience.png" alt="">
+						<img src="img/analytics/audience.png" alt="" style="width: 85%;">
 					</div>
 				</section>
 				<section>
@@ -241,7 +260,7 @@
 					<h2 style="margin-bottom:5px;">This.App.Analytics.Audience.Month</h2>
 					<div style="width: 100%;">
 						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
-						<img src="img/analytics/audience_day.png" alt="">
+						<img src="img/analytics/audience_day.png" alt="" style="width: 85%;">
 					</div>
 				</section>
 				<section>
@@ -262,7 +281,7 @@
 					<h2 style="margin-bottom:5px;">This.App.Analytics.Acquisition.Month</h2>
 					<div style="width: 100%;">
 						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
-						<img src="img/analytics/acqu_month.png" alt="">
+						<img src="img/analytics/acqu_month.png" alt="" style="width: 85%;">
 					</div>
 				</section>
 				<section>
@@ -276,14 +295,14 @@
 					<h2 style="margin-bottom:5px;">This.App.Analytics.Behavior</h2>
 					<div style="width: 100%;">
 						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
-						<img src="img/analytics/behavior.png" alt="">
+						<img src="img/analytics/behavior.png" alt="" style="width: 85%;">
 					</div>
 				</section>
 				<section>
 					<h2>This.App.Analytics.Behavior.stats</h2>
 					<div style="width: 100%;">
 						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
-						<img src="img/analytics/behavior_zoom.png" alt="">
+						<img src="img/analytics/behavior_zoom.png" alt="" style="width: 85%;">
 					</div>
 				</section>
 				<section>
@@ -296,36 +315,64 @@
 				<section>
 					<h2>This.App.Analytics.Conversions</h2>
 					<div style="width: 100%;">
-						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
+						<p style="margin-bottom: 5px; margin-top:5px;">May 22, 2013 - Sept 22, 2015</p>
 						<img src="img/analytics/conversions.png" alt="">
 					</div>
 				</section>
 				<section>
 					<h2>This.App.Analytics.Conversions.stats</h2>
 					<div style="width: 100%;">
-						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
+						<p style="margin-bottom: 5px; margin-top:5px;">May 22, 2013 - Sept 22, 2015</p>
 						<img src="img/analytics/conversions_numbers.png" alt="">
 					</div>
 				</section>
 				<section>
 					<h2>This.App.Analytics.Conversions.flow</h2>
 					<div style="width: 100%;">
-						<p style="margin-bottom: 5px; margin-top:5px;">Aug 22, 2015 - Sept 22, 2015</p>
+						<p style="margin-bottom: 5px; margin-top:5px;">May 22, 2013 - Sept 22, 2015</p>
 						<img src="img/analytics/conversions_flow.png" alt="">
 					</div>
 				</section>
-				<!-- <section>
-					<h2>This.App.Analytics.lotsofdata</h2>
+				<section>
+					<h2>This.App.Analytics.whatnow?</h2>
 					<div style="width: 100%;">
-						<img src="img/analytics/acq_keyword.png" alt="">
+						<ul>
+							<li class="fragment">Where users come from?</li>
+							<li class="fragment">What keywords led them to my site?</li>
+							<li class="fragment">What pages they landed on?</li>
+							<li class="fragment">Which users bounced? 
+								<ul>
+									<li>What keywords led them to my site?</li>
+									<li>What is the page with the greatest bounce rate?</li>
+								</ul>
+							</li>
+							<li class="fragment">Which users converted/navigated/spent time on the site? <ul><li>What was the acquisition source for these users?</li></ul></li>
+							<li class="fragment">How am I doing on social media? Does it bring quality users?</li>
+							<li class="fragment">What about paid search? Do users convert?</li>
+							<li class="fragment">Is my e-mailing marketing effective? (is it bringing quality visitors?)</li>
+						</ul>
 					</div>
-				</section> -->
+				</section>
+				<section>
+					<h2>This.App.Analytics.conclusions</h2>
+					<div style="width: 100%;">
+						<h3>Data allows me to strategize</h3>
+						<p>If needed:</p>
+						<ul>
+							<li class="fragment">Think of better keywords to rank for</li>
+							<li class="fragment">Offer better user experience on pages with high % of bounce rate</li>
+							<li class="fragment">Launch social media compaigns</li>
+							<li class="fragment">Perhaps change e-mailing marketing strategies, templates, subject line, etc</li>
+							<li class="fragment">And much more!</li>
+						</ul>
+					</div>
+				</section>
 				<section>
 					<h2>This.App.newfunctionality</h2>
 					<div style="width: 100%;">
 						<ul>
 							<li class="fragment">Message System | Chat</li>
-							<li class="fragment">Received Message Instant E-mail Notification</li>
+							<li class="fragment">Musicians Receive Instant E-mail Notification</li>
 							<li class="fragment">Cron Job - Scheduled E-Mailing Task</li>
 							<li class="fragment">New Videos on Home Page</li>
 						</ul>
@@ -335,7 +382,7 @@
 					<h2>This.App.newfunctionality.messages</h2>
 					<div style="width: 100%;">
 						<video width="100%" height="100%" controls>
-						  <source src="videos/messages_demo.mp4" type="video/mp4">
+						  <source src="videos/message_demo.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 						</video>
 					</div>
@@ -359,6 +406,21 @@
 					<h2>This.App.newfunctionality.cronjobs</h2>
 					<div style="width: 100%;">
 						<img src="img/cron.png" alt="" style="width:80%;">
+					</div>
+				</section>
+				<section>
+					<h2>This.App.newfunctionality.cronjobs.more</h2>
+					<div style="width: 100%;">
+						<ul>
+							<li class="fragment">Send every user statistics about their profile (number of visits and likes)</li>
+							<li class="fragment">Goes through all fields of their profile (profile pic, videos, bio, genres, specialties) and:
+								<ul>
+									<li class="fragment">Congratulate them if their profile is complete</li>
+									<li class="fragment">Suggest that they add the information they are lacking in order to make the profile more interesting</li>
+								</ul>
+							</li>
+							<li class="fragment">Invite users to share their profile using e-mail's "share" links</li>
+						</ul>
 					</div>
 				</section>
 				<section>
